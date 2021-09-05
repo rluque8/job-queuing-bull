@@ -1,0 +1,27 @@
+{
+  "name": "job-queuing-bull",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "jobs",
+    "queues",
+    "bull"
+  ],
+  "author": "Rodrigo Luque",
+  "license": "ISC",
+  "dependencies": {
+    "@bull-board/koa": "^3.5.4",
+    "@koa/router": "^10.1.1",
+    "bull": "^3.29.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
